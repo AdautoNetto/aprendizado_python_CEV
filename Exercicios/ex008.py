@@ -1,0 +1,5 @@
+n = float(input('Digite o valor e metros para fazer a conversão em centimetros e milimetros: '))
+cm = (n * 100)
+mm = (n * 1000)
+print('O valor convertido em cm é: {}' .format(cm))
+print('O valor convertido em milimetros é: {}' .format(mm))

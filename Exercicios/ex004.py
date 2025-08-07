@@ -1,0 +1,8 @@
+n = input('Digite Algo Na Tela:')
+print('o tipo primitivo desse valor é ', (type(n)))
+print('Só tem espaços ', n.isspace())
+print('é um numero ', n.isnumeric())
+print('é alfabetico ', n.isalpha())
+print('é alfanumérico', n.isalnum())
+print('está em minusculo', n.islower())
+print('está em maisculo', n.isupper())
