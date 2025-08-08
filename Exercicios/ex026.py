@@ -9,3 +9,5 @@ print('Em sua frase a letra A aparece a primeira vez na posição {}' .format(po
 
 posu = frase.rfind('a')+1
 print('Em sua frase a letra A aparece a ultima vez na posição {}' .format(posu))
+
+print('Fim do programa!')
