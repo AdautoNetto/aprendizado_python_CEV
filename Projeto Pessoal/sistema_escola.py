@@ -16,7 +16,7 @@ def cadastro_aluno(lista_alunos):
         if aluno['nome'].strip() == '':
             print('Voce não digitou nenhuma entrada !')
             print('Por favor, digite apenas o nome do aluno')
-        elif not aluno['nome'].isalpha():
+        elif not aluno['nome'].strip().isalpha():
             print('Voce digitou um numero no nome do aluno, isso não é valido')
             print('Por favor Digite apenas o nome do aluno com caracteres')
         else:
