@@ -184,6 +184,8 @@ while True:
 
         elif escolha == 5:
             print('Voce escolheu sair do programa...')
+            print('Obrigado por usar o sistema da escola')
+            print('Volte sempre!')
             sleep(0.5)
             break
         else:
